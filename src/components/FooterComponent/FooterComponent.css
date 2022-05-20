@@ -1,0 +1,40 @@
+.available-patient {
+    margin-top: -17px;
+}
+
+.ant-btn-default {
+    border-color: #cabcbc;
+    background: white;
+    color: rgb(53, 118, 208);
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.ant-layout-footer {
+    background: white;
+    height: auto;
+}
+
+.upgrade-button {
+    text-align: right;
+}
+
+.footer {
+    margin-top: 10vhpx
+}
+
+hr {
+    height: 2px;
+    width: 100%;
+    border-width: 0;
+    background-color: #a9989859;
+    margin-bottom: 3vh;
+}
+
+.ant-layout-footer {
+    padding: 10px 50px;
+    padding-top: 70px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    background: hsl(0, 0%, 100%);
+}

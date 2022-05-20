@@ -1,0 +1,23 @@
+.search-align {
+    padding: 30px;
+    margin: 10px;
+    color: #0c0cd2;
+    height: 25px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-text {
+    margin-left: 10px;
+    color: rgb(125, 122, 122);
+  }
+
+  .ant-input {
+      border: none;
+  }
+
+  .ant-input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }

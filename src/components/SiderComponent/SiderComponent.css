@@ -1,0 +1,19 @@
+.capitalize {
+    text-transform: uppercase;
+    padding: 10px;
+    color: rgb(53, 118, 208);
+  }
+  
+  .contact-us {
+      margin: 10px;
+      margin-top: 182px;
+  }
+
+  .ant-btn-primary {
+      border-color: #27b778;
+      background: #27b778;
+  }
+
+.ant-layout-sider-children {
+    padding-top: 50px;
+}
