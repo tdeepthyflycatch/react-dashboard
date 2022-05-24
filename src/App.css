@@ -135,8 +135,15 @@ img {
   }
 }
 
+@media (max-width:460px) {
+  .ant-layout-sider {
+    position: absolute;
+   z-index: 1000;
+  }
+}
+
 .site-layout-content{
-  margin-left: 100px;
+  /* margin-left: 100px; */
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }

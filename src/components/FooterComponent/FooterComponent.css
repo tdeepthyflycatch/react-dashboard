@@ -30,11 +30,39 @@ hr {
     background-color: #a9989859;
     margin-bottom: 3vh;
 }
-
+/* 
 .ant-layout-footer {
     padding: 10px 50px;
     padding-top: 70px;
     color: rgba(0, 0, 0, 0.85);
     font-size: 14px;
     background: hsl(0, 0%, 100%);
+} */
+
+.ant-layout-footer {
+    padding: 10px 0px !important;
+    margin-top: 64px;
+}
+
+
+@media (max-width:460px) {
+    .upgrade {
+
+    }
+   
+    .footer-row{
+        display: block;
+    }
+    .patient-available {
+        max-width: none;
+    display: block;
+    }
+  }
+  @media (max-width:538px) {
+    .upgrade {
+
+    }
+    .upgrade-button {
+        /* text-align: unset !important; */
+    }
 }

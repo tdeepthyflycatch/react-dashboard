@@ -20,10 +20,10 @@ export const ContentComponent = ({cardDetails}) => {
           <div className="patient-card">
             <Row>
               {cardDetails.map((data, index) =>
-                <Col span={6} key={`key-${index}`}>
+                <Col span={12} lg={12} md={12} sm={6} xs={6}key={`key-${index}`}>
                   <CardComponent data={data} />
                 </Col>)}
-              <Col span={6}> <div className="card-add">
+              <Col span={12} lg={12} md={12} sm={6} xs={6}> <div className="card-add">
                 <div style={{ width: "100%", textAlign: "center" }}>
                 </div>
                 <div className="container">
